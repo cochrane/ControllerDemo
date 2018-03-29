@@ -15,9 +15,9 @@ class ICadeWindow: NSWindow {
             ICadeInputType.sharedInput.process(keyDownEvent: event)
         } else if (event.type == .keyUp) {
             // Swallowed, because we don't allow key-down events either
+        } else {
+            super.sendEvent(event)
         }
-        
-        super.sendEvent(event)
     }
 
 }
