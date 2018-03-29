@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5243E31D206C4F7800B5D664 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243E31C206C4F7800B5D664 /* GameController.framework */; };
+		5243E320206C509D00B5D664 /* GameControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243E31F206C509D00B5D664 /* GameControllerInput.swift */; };
+		5243E326206C64F500B5D664 /* InputList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5243E325206C64F500B5D664 /* InputList.m */; };
+		5243E329206C69D500B5D664 /* ICadeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243E328206C69D500B5D664 /* ICadeWindow.swift */; };
+		5243E32B206C6A7B00B5D664 /* ICadeInputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243E32A206C6A7B00B5D664 /* ICadeInputType.swift */; };
 		526D5AF5206C19C200DCDE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D5AF4206C19C200DCDE85 /* AppDelegate.swift */; };
 		526D5AF7206C19C200DCDE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526D5AF6206C19C200DCDE85 /* Assets.xcassets */; };
 		526D5AFA206C19C200DCDE85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526D5AF8206C19C200DCDE85 /* MainMenu.xib */; };
+		526D5B03206C1E6D00DCDE85 /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D5B02206C1E6D00DCDE85 /* Interfaces.swift */; };
+		526D5B09206C273F00DCDE85 /* HIDInputElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 526D5B08206C273F00DCDE85 /* HIDInputElement.m */; };
+		526D5B0C206C27C600DCDE85 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526D5B0B206C27C600DCDE85 /* IOKit.framework */; };
+		526D5B0F206C293800DCDE85 /* HIDDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 526D5B0E206C293800DCDE85 /* HIDDevice.m */; };
+		526D5B13206C29E300DCDE85 /* HIDInputManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 526D5B12206C29E300DCDE85 /* HIDInputManagement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5243E31C206C4F7800B5D664 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		5243E31F206C509D00B5D664 /* GameControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerInput.swift; sourceTree = "<group>"; };
+		5243E324206C64F500B5D664 /* InputList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputList.h; sourceTree = "<group>"; };
+		5243E325206C64F500B5D664 /* InputList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputList.m; sourceTree = "<group>"; };
+		5243E328206C69D500B5D664 /* ICadeWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICadeWindow.swift; sourceTree = "<group>"; };
+		5243E32A206C6A7B00B5D664 /* ICadeInputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICadeInputType.swift; sourceTree = "<group>"; };
 		526D5AF1206C19C200DCDE85 /* ControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526D5AF4206C19C200DCDE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526D5AF6206C19C200DCDE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526D5AF9206C19C200DCDE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		526D5AFB206C19C200DCDE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		526D5AFC206C19C200DCDE85 /* ControllerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ControllerDemo.entitlements; sourceTree = "<group>"; };
+		526D5B02206C1E6D00DCDE85 /* Interfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
+		526D5B06206C273F00DCDE85 /* ControllerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControllerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		526D5B07206C273F00DCDE85 /* HIDInputElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIDInputElement.h; sourceTree = "<group>"; };
+		526D5B08206C273F00DCDE85 /* HIDInputElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIDInputElement.m; sourceTree = "<group>"; };
+		526D5B0B206C27C600DCDE85 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		526D5B0D206C293800DCDE85 /* HIDDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIDDevice.h; sourceTree = "<group>"; };
+		526D5B0E206C293800DCDE85 /* HIDDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIDDevice.m; sourceTree = "<group>"; };
+		526D5B11206C29E300DCDE85 /* HIDInputManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HIDInputManagement.h; sourceTree = "<group>"; };
+		526D5B12206C29E300DCDE85 /* HIDInputManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HIDInputManagement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5243E31D206C4F7800B5D664 /* GameController.framework in Frameworks */,
+				526D5B0C206C27C600DCDE85 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5243E31E206C4F7C00B5D664 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				5243E31F206C509D00B5D664 /* GameControllerInput.swift */,
+			);
+			path = GameController;
+			sourceTree = "<group>";
+		};
+		5243E327206C69BF00B5D664 /* iCade */ = {
+			isa = PBXGroup;
+			children = (
+				5243E328206C69D500B5D664 /* ICadeWindow.swift */,
+				5243E32A206C6A7B00B5D664 /* ICadeInputType.swift */,
+			);
+			path = iCade;
+			sourceTree = "<group>";
+		};
 		526D5AE8206C19C200DCDE85 = {
 			isa = PBXGroup;
 			children = (
 				526D5AF3206C19C200DCDE85 /* ControllerDemo */,
 				526D5AF2206C19C200DCDE85 /* Products */,
+				526D5B0A206C27C600DCDE85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,13 +95,41 @@
 		526D5AF3206C19C200DCDE85 /* ControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5243E327206C69BF00B5D664 /* iCade */,
+				5243E31E206C4F7C00B5D664 /* GameController */,
+				526D5B10206C29C500DCDE85 /* HID */,
 				526D5AF4206C19C200DCDE85 /* AppDelegate.swift */,
 				526D5AF6206C19C200DCDE85 /* Assets.xcassets */,
 				526D5AF8206C19C200DCDE85 /* MainMenu.xib */,
 				526D5AFB206C19C200DCDE85 /* Info.plist */,
-				526D5AFC206C19C200DCDE85 /* ControllerDemo.entitlements */,
+				526D5B02206C1E6D00DCDE85 /* Interfaces.swift */,
+				526D5B06206C273F00DCDE85 /* ControllerDemo-Bridging-Header.h */,
+				5243E324206C64F500B5D664 /* InputList.h */,
+				5243E325206C64F500B5D664 /* InputList.m */,
 			);
 			path = ControllerDemo;
+			sourceTree = "<group>";
+		};
+		526D5B0A206C27C600DCDE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5243E31C206C4F7800B5D664 /* GameController.framework */,
+				526D5B0B206C27C600DCDE85 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		526D5B10206C29C500DCDE85 /* HID */ = {
+			isa = PBXGroup;
+			children = (
+				526D5B07206C273F00DCDE85 /* HIDInputElement.h */,
+				526D5B08206C273F00DCDE85 /* HIDInputElement.m */,
+				526D5B0D206C293800DCDE85 /* HIDDevice.h */,
+				526D5B0E206C293800DCDE85 /* HIDDevice.m */,
+				526D5B11206C29E300DCDE85 /* HIDInputManagement.h */,
+				526D5B12206C29E300DCDE85 /* HIDInputManagement.m */,
+			);
+			path = HID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +164,13 @@
 				TargetAttributes = {
 					526D5AF0206C19C200DCDE85 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -132,6 +210,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				526D5AF5206C19C200DCDE85 /* AppDelegate.swift in Sources */,
+				5243E320206C509D00B5D664 /* GameControllerInput.swift in Sources */,
+				5243E329206C69D500B5D664 /* ICadeWindow.swift in Sources */,
+				5243E326206C64F500B5D664 /* InputList.m in Sources */,
+				5243E32B206C6A7B00B5D664 /* ICadeInputType.swift in Sources */,
+				526D5B03206C1E6D00DCDE85 /* Interfaces.swift in Sources */,
+				526D5B13206C29E300DCDE85 /* HIDInputManagement.m in Sources */,
+				526D5B09206C273F00DCDE85 /* HIDInputElement.m in Sources */,
+				526D5B0F206C293800DCDE85 /* HIDDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,13 +345,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ControllerDemo/ControllerDemo.entitlements;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ferroequinologist.ControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ControllerDemo/ControllerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -274,13 +362,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ControllerDemo/ControllerDemo.entitlements;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ferroequinologist.ControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ControllerDemo/ControllerDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
